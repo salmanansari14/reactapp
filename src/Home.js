@@ -1,8 +1,11 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
   return (
-    <div>Homefgfg</div>
+    <div>Homefgfg
+        <Link to='/home'>ghrgh</Link>
+    </div>
   )
 }
 
