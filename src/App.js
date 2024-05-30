@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-      <header className="App-header">
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -20,7 +20,7 @@ function App() {
           Learn React
         </Link>
           
-      </header>
+      </header> */}
         <Routes>
           <Route path="/home" element={<Home />} />
         </Routes>
